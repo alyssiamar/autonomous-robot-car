@@ -20,7 +20,6 @@ header {
   background: #111;
   padding: 1rem 0;
   text-align: center;
-  border-bottom: 2px solid #00ff88;
 }
 
 /* title */
@@ -99,7 +98,6 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  border-top: 1px solid #00ff88;
   margin-top: 2rem;
   font-size: 0.9rem;
 }
