@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  background: linear-gradient(to bottom, #0f0f0f, #c999ff);
   overflow-x: hidden;
 }
 
