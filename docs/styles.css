@@ -34,7 +34,11 @@ h1 {
 
 /* Navigation bar */
 .navbar {
-  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  gap: 10px;             
+  margin-bottom: 40px;
 }
 
 .navbar a,
