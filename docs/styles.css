@@ -1,9 +1,9 @@
 /* General page styling */
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #0a0a0a;
-  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  overflow-x: hidden;
 }
 
 header {
@@ -13,9 +13,13 @@ header {
   border-bottom: 2px solid #00ff88;
 }
 
+/* title */
 h1 {
-  margin: 0;
-  color: #00ff88;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 100px;
+  letter-spacing: 2px;
 }
 
 /* Navigation bar */
