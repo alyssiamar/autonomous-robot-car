@@ -31,30 +31,69 @@ h1 {
   background: transparent;
 }
 
-/* Simple navigation bar */
+/* Navbar */
 .navbar {
-  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
 }
 
-.navbar a {
+/* Navbar links and buttons */
+.navbar a,
+.dropbtn {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
-  margin: 0 5px;
   border-radius: 5px;
   background: rgba(34,34,34,0.6);
   transition: background 0.3s;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.dropbtn:hover {
   background: #00ff88;
   color: #000;
 }
 
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(34,34,34,0.9);
+  border-radius: 5px;
+  margin-top: 5px;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: #00ff88;
+  color: #000;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* Main content */
 main {
-  padding: 2rem;
   text-align: center;
+  padding: 2rem;
 }
 
 /* Footer */
