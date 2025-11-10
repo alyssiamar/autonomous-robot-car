@@ -12,12 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background: #111;
-  padding: 1rem 0;
-  text-align: center;
-}
-
 /* title */
 h1 {
   color: #fff;
