@@ -43,7 +43,7 @@ h1 {
   text-decoration: none;
   padding: 10px 20px;
   display: inline-block;
-  background: #222;
+  background: rgba(34,34,34,0.6);
   margin: 0 2px;
   border-radius: 5px;
   transition: background 0.3s;
