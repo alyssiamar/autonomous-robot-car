@@ -7,13 +7,9 @@ html, body {
 }
 
 body {
-  margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: black;
-  background-image: linear-gradient(to bottom, #0f0f0f, #1a1a2e, #2c2c44);
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a2e, #2c2c44);
   overflow-x: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 header {
