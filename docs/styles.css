@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #0f0f0f, #2b1642, #c999ff);
-  height: 100vh;
+  background-color: black;
+  background-image: linear-gradient(to bottom, #0f0f0f, #1a1a2e, #2c2c44);
   overflow-x: hidden;
 }
 
