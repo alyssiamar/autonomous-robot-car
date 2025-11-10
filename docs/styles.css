@@ -31,26 +31,26 @@ h1 {
   background: transparent;
 }
 
-/* Navbar */
+
+/* Navigation bar */
 .navbar {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 40px;
+  margin-top: 0.5rem;
 }
 
-/* Navbar links and buttons */
 .navbar a,
 .dropbtn {
-  color: #fff;
+  color: white;
   text-decoration: none;
   padding: 10px 20px;
+  display: inline-block;
+  background: #222;
+  margin: 0 2px;
   border-radius: 5px;
-  background: rgba(34,34,34,0.6);
   transition: background 0.3s;
 }
 
 .navbar a:hover,
-.dropbtn:hover {
+.dropdown:hover .dropbtn {
   background: #00ff88;
   color: #000;
 }
@@ -61,27 +61,26 @@ h1 {
   display: inline-block;
 }
 
-/* Dropdown menu */
+/* Dropdown menu items */
 .dropdown-content {
   display: none;
   position: absolute;
-  background: rgba(34,34,34,0.9);
-  border-radius: 5px;
-  margin-top: 5px;
+  background-color: #222;
   min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
   z-index: 1;
 }
 
-/* Dropdown links */
 .dropdown-content a {
-  display: block;
+  color: white;
   padding: 10px 15px;
-  color: #fff;
   text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-  background: #00ff88;
+  background-color: #00ff88;
   color: #000;
 }
 
@@ -100,5 +99,6 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
+  margin-top: 2rem;
   font-size: 0.9rem;
 }
