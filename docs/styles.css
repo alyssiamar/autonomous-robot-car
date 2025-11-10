@@ -8,7 +8,8 @@ html, body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #0f0f0f, #1a1a2e, #2c2c44);
+  background-image: linear-gradient(to bottom, #0f0f0f, #1a1a2e, #2c2c44);
+  background-color: black;
   overflow-x: hidden;
 }
 
