@@ -13,7 +13,8 @@ html, body {
 
 /* Full-page linear gradient background */
 body {
-  background: linear-gradient(to bottom, #0f0f0f, #2c2c44);
+  background-color: black;
+  background-image: linear-gradient(to bottom, #0f0f0f, #2c2c44);
   color: #fff; /* default text color */
   overflow-x: hidden;
   display: flex;
